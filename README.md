@@ -2,7 +2,8 @@ Julian Dezarnaud, SI4 Polytech Nice-Sophia, Valbonne
 
 OlympicSavoyard
 
-Jeu en ligne : https://dezarnaud-julian.github.io/](https://dezarnaud-julian.github.io/
+Jeu en ligne : https://dezarnaud-julian.github.io/
+
 Code source : https://github.com/Dezarnaud-Julian/OlympicSavoyard
 
 Mode d’emploi :
