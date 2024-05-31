@@ -254,35 +254,276 @@ if not processed:
    export default App;
    ```
 
-### Documentation du Jeu SkiSlalomGame
+### Le Jeu de Slalom
 
 #### Description Générale
 
+Le jeu consiste en un parcours de slalom où le joueur doit naviguer à travers des portes, utiliser les boosts et atteindre la ligne d'arrivée le plus rapidement possible.
 
+### Classes et Méthodes
 
-Le jeu consiste en un parcours de slalom où le joueur doit naviguer à travers des portes, éviter des obstacles et atteindre la ligne d'arrivée le plus rapidement possible.
+#### 1. **Player**
 
-#### Classes et Méthodes
+La classe `Player` représente le joueur avec ses propriétés et comportements. Elle gère les mouvements et les collisions du joueur, ainsi que d'autres interactions dans le jeu.
 
-1. **Player**
+**Propriétés Principales :**
+- **position** : La position actuelle du joueur sur le terrain.
+- **speed** : La vitesse actuelle du joueur.
+- **direction** : La direction dans laquelle le joueur se déplace.
+- **mesh** : Le maillage 3D représentant le joueur dans la scène Babylon.js.
 
-   Représente le joueur avec ses propriétés et comportements, y compris la gestion des mouvements et des collisions.
+**Méthodes Principales :**
+- **move** : Met à jour la position du joueur en fonction de sa vitesse et de sa direction.
+- **checkCollisions** : Vérifie les collisions avec les obstacles, les portes et les boosts.
+- **applyBoost** : Augmente temporairement la vitesse du joueur lorsqu'il collecte un boost.
+- **applyPenalty** : Applique une pénalité (réduction de vitesse ou augmentation du temps) lorsque le joueur rate une porte.
 
-2. **Door**
+**Exemple de Code :**
 
-   Représente une porte dans le jeu. Gère les interactions lorsque le joueur passe à travers la porte, y compris les sons et les pénalités.
+```javascript
+class Player {
+  constructor(scene) {
+    this.position = new BABYLON.Vector3(0, 0, 0);
+    this.speed = 0.1;
+    this.direction = new BABYLON.Vector3(1, 0, 0);
+    this.mesh = this.createMesh(scene);
+  }
 
-3. **Ramp**
+  createMesh(scene) {
+    const mesh = BABYLON.MeshBuilder.CreateBox("player", { height: 2, width: 1, depth: 1 }, scene);
+    mesh.position = this.position;
+    return mesh;
+  }
 
-   Représente une rampe dans le jeu. Peut donner un boost ou un saut au joueur lorsqu'il la traverse.
+  move() {
+    this.position.addInPlace(this.direction.scale(this.speed));
+    this.mesh.position = this.position;
+  }
 
-4. **Boost**
+  checkCollisions(objects) {
+    for (let obj of objects) {
+      if (this.mesh.intersectsMesh(obj.mesh)) {
+        if (obj instanceof Door) {
+          this.applyPenalty();
+        } else if (obj instanceof Boost) {
+          this.applyBoost();
+        }
+      }
+    }
+  }
 
-   Représente un boost dans le jeu. Augmente la vitesse du joueur lorsqu'il le collecte.
+  applyBoost() {
+    this.speed *= 1.5;
+    setTimeout(() => {
+      this.speed /= 1.5;
+    }, 5000); // Boost lasts for 5 seconds
+  }
 
-5. **Terrain**
+  applyPenalty() {
+    this.speed *= 0.75; // Reduce speed by 25%
+  }
+}
+```
 
-   Représente le terrain du jeu, généré dynamiquement avec des obstacles, des portes et des éléments de boost.
+#### 2. **Door**
+
+La classe `Door` représente une porte dans le jeu. Elle gère les interactions lorsque le joueur passe à travers la porte, y compris les sons et les pénalités.
+
+**Propriétés Principales :**
+- **position** : La position de la porte sur le terrain.
+- **mesh** : Le maillage 3D représentant la porte dans la scène Babylon.js.
+- **sound** : Le son joué lorsque le joueur passe à travers la porte.
+
+**Méthodes Principales :**
+- **playSound** : Joue un son lorsque le joueur passe à travers la porte.
+- **applyPenalty** : Applique une pénalité au joueur s'il rate la porte.
+
+**Exemple de Code :**
+
+```javascript
+class Door {
+  constructor(scene, position) {
+    this.position = position;
+    this.mesh = this.createMesh(scene);
+    this.sound = new BABYLON.Sound("doorSound", "path/to/doorSound.mp3", scene);
+  }
+
+  createMesh(scene) {
+    const mesh = BABYLON.MeshBuilder.CreateBox("door", { height: 4, width: 0.5, depth: 3 }, scene);
+    mesh.position = this.position;
+    return mesh;
+  }
+
+  playSound() {
+    this.sound.play();
+  }
+
+  applyPenalty(player) {
+    player.applyPenalty();
+  }
+}
+```
+
+#### 3. **Ramp**
+
+La classe `Ramp` représente une rampe dans le jeu. Elle peut donner un boost ou un saut au joueur lorsqu'il la traverse.
+
+**Propriétés Principales :**
+- **position** : La position de la rampe sur le terrain.
+- **mesh** : Le maillage 3D représentant la rampe dans la scène Babylon.js.
+- **boost** : Indique si la rampe donne un boost de vitesse ou un saut.
+
+**Méthodes Principales :**
+- **applyEffect** : Applique un effet (boost ou saut) au joueur lorsqu'il traverse la rampe.
+
+**Exemple de Code :**
+
+```javascript
+class Ramp {
+  constructor(scene, position, boost = true) {
+    this.position = position;
+    this.mesh = this.createMesh(scene);
+    this.boost = boost;
+  }
+
+  createMesh(scene) {
+    const mesh = BABYLON.MeshBuilder.CreateBox("ramp", { height: 1, width: 3, depth: 5 }, scene);
+    mesh.position = this.position;
+    return mesh;
+  }
+
+  applyEffect(player) {
+    if (this.boost) {
+      player.applyBoost();
+    } else {
+      player.direction.y += 0.1; // Simple jump effect
+    }
+  }
+}
+```
+
+#### 4. **Boost**
+
+La classe `Boost` représente un boost dans le jeu. Elle augmente la vitesse du joueur lorsqu'il le collecte.
+
+**Propriétés Principales :**
+- **position** : La position du boost sur le terrain.
+- **mesh** : Le maillage 3D représentant le boost dans la scène Babylon.js.
+- **sound** : Le son joué lorsque le joueur collecte le boost.
+
+**Méthodes Principales :**
+- **applyBoost** : Applique un boost de vitesse au joueur.
+- **playSound** : Joue un son lorsque le joueur collecte le boost.
+
+**Exemple de Code :**
+
+```javascript
+class Boost {
+  constructor(scene, position) {
+    this.position = position;
+    this.mesh = this.createMesh(scene);
+    this.sound = new BABYLON.Sound("boostSound", "path/to/boostSound.mp3", scene);
+  }
+
+  createMesh(scene) {
+    const mesh = BABYLON.MeshBuilder.CreateSphere("boost", { diameter: 1 }, scene);
+    mesh.position = this.position;
+    return mesh;
+  }
+
+  applyBoost(player) {
+    player.applyBoost();
+    this.playSound();
+  }
+
+  playSound() {
+    this.sound.play();
+  }
+}
+```
+
+#### 5. **Terrain**
+
+La classe `Terrain` représente le terrain du jeu, généré dynamiquement avec des obstacles, des portes et des éléments de boost.
+
+**Propriétés Principales :**
+- **size** : La taille du terrain.
+- **mesh** : Le maillage 3D représentant le terrain dans la scène Babylon.js.
+- **obstacles** : Liste des obstacles présents sur le terrain.
+- **doors** : Liste des portes présentes sur le terrain.
+- **boosts** : Liste des boosts présents sur le terrain.
+
+**Méthodes Principales :**
+- **generateTerrain** : Génère dynamiquement le terrain avec des obstacles, des portes et des boosts.
+- **addObstacle** : Ajoute un obstacle au terrain.
+- **addDoor** : Ajoute une porte au terrain.
+- **addBoost** : Ajoute un boost au terrain.
+
+**Exemple de Code :**
+
+```javascript
+class Terrain {
+  constructor(scene, size) {
+    this.size = size;
+    this.mesh = this.createMesh(scene);
+    this.obstacles = [];
+    this.doors = [];
+    this.boosts = [];
+    this.generateTerrain(scene);
+  }
+
+  createMesh(scene) {
+    const mesh = BABYLON.MeshBuilder.CreateGround("terrain", { width: this.size, height: this.size }, scene);
+    return mesh;
+  }
+
+  generateTerrain(scene) {
+    for (let i = 0; i < 10; i++) {
+      this.addObstacle(scene, new BABYLON.Vector3(Math.random() * this.size, 0, Math.random() * this.size));
+      this.addDoor(scene, new BABYLON.Vector3(Math.random() * this.size, 0, Math.random() * this.size));
+      this.addBoost(scene, new BABYLON.Vector3(Math.random() * this.size, 0, Math.random() * this.size));
+    }
+  }
+
+  addObstacle(scene, position) {
+    const obstacle = new BABYLON.MeshBuilder.CreateBox("obstacle", { height: 2, width: 1, depth: 1 }, scene);
+    obstacle.position = position;
+    this.obstacles.push(obstacle);
+  }
+
+  addDoor(scene, position) {
+    const door = new Door(scene, position);
+    this.doors.push(door);
+  }
+
+  addBoost(scene, position) {
+    const boost = new Boost(scene, position);
+    this.boosts.push(boost);
+  }
+}
+```
+
+### Ressources et Dépendances
+
+#### Ressources
+
+1. **FreeSound**
+   - [FreeSound](https://freesound.org/) est une plateforme collaborative où les utilisateurs peuvent partager des sons libres de droits. Utilisé pour les effets sonores dans le jeu, comme les sons des portes et des boosts.
+
+2. **SketchMap**
+   - [SketchMap](https://sketchmap.io/) est un outil en ligne pour créer des cartes simples. Utilisé pour dessiner des croquis de la disposition du terrain et des obstacles dans le jeu.
+
+#### Dépendances
+
+- **Python Imaging Library (PIL)** : Utilisé pour la manipulation des images dans le script Python.
+- **React** : Utilisé pour créer l'interface utilisateur de l'application.
+- **Babylon.js** : Utilisé pour le rendu 3D dans l'application.
+- **React Country Flag** : Utilisé pour afficher les drapeaux des pays dans l'interface utilisateur
+
+.
+- **TypeScript** : Utilisé pour le développement de la logique du jeu.
+
+Ces classes et méthodes, ainsi que les ressources et les dépendances, constituent la structure fondamentale de notre jeu de slalom en 3D. La génération dynamique du terrain et l'utilisation de sons immersifs améliorent l'expérience de jeu, rendant chaque partie unique et captivante.
 
 #### Fonctionnalités
 
