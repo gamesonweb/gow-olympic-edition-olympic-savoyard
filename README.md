@@ -9,7 +9,7 @@
 ### Jeu en ligne: https://dezarnaud-julian.github.io/
 ### Code source: https://github.com/Dezarnaud-Julian/OlympicSavoyard
 ### Site Web Buildé: https://github.com/Dezarnaud-Julian/dezarnaud-julian.github.io
-### Vidéo de 30 secondes de Gameplay : Lien YT
+### Vidéo de 30 secondes de Gameplay : https://youtu.be/fGPHrEuFtO4
 
 <br>
 
