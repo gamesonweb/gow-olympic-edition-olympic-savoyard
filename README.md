@@ -1,7 +1,7 @@
 Julian Dezarnaud, SI4 Polytech Nice-Sophia, Valbonne
 
-Alpine Ski
-
+**Alpine Ski
+**
 Jeu en ligne: https://dezarnaud-julian.github.io/
 Code source: https://github.com/Dezarnaud-Julian/OlympicSavoyard
 Site Web Buildé: https://github.com/Dezarnaud-Julian/dezarnaud-julian.github.io
