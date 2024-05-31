@@ -9,6 +9,7 @@
 ### Jeu en ligne: https://dezarnaud-julian.github.io/
 ### Code source: https://github.com/Dezarnaud-Julian/OlympicSavoyard
 ### Site Web Buildé: https://github.com/Dezarnaud-Julian/dezarnaud-julian.github.io
+### Vidéo de 30 secondes de Gameplay : Lien YT
 
 <br>
 
@@ -175,10 +176,6 @@ Je voulais représenter au mieux cette sensation de glisse qui m’est cher ! Al
 
 <br>
 
-Les sons viennent de FreeSound !
-
-<br>
-
 Pour ce qui est du son et des animations, c’est géré procéduralement. Le volume du son est plus ou moins fort suivant certaines données, comme la position vis-à-vis des drapeaux et de la vitesse. Le son quand on freine ou que l’on tourne est plus ou moins fort, il boucle en loop et le volume est géré aussi en fonction de la vitesse.
 
 <br>
@@ -188,10 +185,6 @@ Pour les animations du personnages, tout à été créé à partir de primitifs 
 <br>
 
 Les drapeaux se penchent plus ou moins fort quand on les touchent suivant la vitesse et la distance avec eux. Donc au lieu d’une animation statique ont à quelque-chose en fonction de la vitesse encore une fois.
-
-<br>
-
-Les modèles 3D on été fait avec Blender et certains récupéré sur Sketchfab.
 
 <br>
 
@@ -213,10 +206,12 @@ Pour la version mobile, afin d’optimiser et fluidifier le jeu, j’elève beau
 
 <br>
 
+## Ressources
 
-### Vidéo de 30 secondes de Gameplay : Lien YT
+<br>
 
- 
+### Les sons viennent de FreeSound !
 
+<br>
 
-
+### Les modèles 3D on été fait avec Blender et certains récupéré sur Sketchfab.
