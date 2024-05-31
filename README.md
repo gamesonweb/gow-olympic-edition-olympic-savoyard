@@ -16,6 +16,38 @@
 
 <br>
 
+### Plongez au cœur des montagnes enneigées avec Alpine Ski: Olympic Savoyard, un jeu immersif où la vitesse et l'adresse sont vos meilleurs alliés! 
+### Développé avec passion, ce jeu vous offre une expérience de slalom réaliste et palpitante.
+
+<br>
+
+### Le But ? Terminer 1er au Slalom Olympique !
+### Suivez la ligne bleue pour passer les drapeaux sans pénalité. Accélérez, freinez, et virez à toute vitesse pour finir le parcours le plus rapidement possible. Chaque drapeau manqué ajoute 10 secondes à votre temps – visez la perfection pour décrocher la médaille d'or!
+
+<br>
+
+### Découvrez une piste de ski créée avec soin, entourée de montagnes majestueuses, d'arbres enneigés, et de rochers. Des particules de neige tombent doucement, et une skybox époustouflante complète ce tableau hivernal idyllique.
+
+<br>
+
+### Sentez la glisse!
+### Le son joue un rôle crucial dans votre immersion. Jouez avec un casque pour une expérience maximale. Écoutez le vent siffler, la neige crisser sous vos skis, et les cloches savoyardes résonner alors que vous dévalez la pente à toute allure!
+
+<br>
+
+### Préparez-vous, chaussez vos skis, et lancez-vous dans une aventure inoubliable. À vos marques, prêts, partez! Profitez de Alpine Ski: Olympic Savoyard dès maintenant pour ressentir la véritable magie de la glisse alpine.
+
+<br>
+
+
+<br>
+
+
+## Relevez le défi!
+### Prenez le contrôle de votre skieur avec des commandes simples :
+
+<br>
+
 ### Mode d’emploi :
 -	Flèche du haut : Duck/Démarrer la course
 -	Flèche du bas :  Chasse-Neige (Freiner)
