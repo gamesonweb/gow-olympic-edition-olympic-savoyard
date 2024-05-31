@@ -73,7 +73,9 @@
 
 Vous pouvez jouer au jeu en plein écran en installant un raccourci du jeu sur votre mobile.
 3 petits points en haut à droite de votre navigateur > Ajouter en raccourci / Add to home screen
-![image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsupport.startpage.com%2Fhc%2Farticle_attachments%2F6738385280020%2FScreenshot_20220603-095113.jpeg&f=1&nofb=1&ipt=97a250a51d63ba43d3e9fe40050bb28948e4a2ff4858111eaf397eeaf473c1f2&ipo=images)
+Exemple : 
+<img src="[drawing.jpg](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsupport.startpage.com%2Fhc%2Farticle_attachments%2F6738385280020%2FScreenshot_20220603-095113.jpeg&f=1&nofb=1&ipt=97a250a51d63ba43d3e9fe40050bb28948e4a2ff4858111eaf397eeaf473c1f2&ipo=images)" alt="drawing" width="200"/>
+
 <br>
 
 <p align="center">
