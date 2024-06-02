@@ -1,223 +1,200 @@
-#### Julian Dezarnaud, SI4 Polytech Nice-Sophia, Valbonne
+<h1 align="center">❄️ Alpine Ski ⛷️</h1>
 
-<br>
+#### 🏔️ Plongez au cœur des montagnes enneigées dans ce jeu immersif où la vitesse et l'adresse sont vos meilleurs alliés!
 
-<h1 align="center">Alpine Ski</h1>
+#### ⛷️ **Slalomez entre les drapeaux** sans erreur et passez sur les boosts pour obtenir le meilleur chrono ! ⏲️
 
-<br>
-
-### Jeu en ligne: https://dezarnaud-julian.github.io/
-### Code source: https://github.com/Dezarnaud-Julian/OlympicSavoyard
-### Site Web Buildé: https://github.com/Dezarnaud-Julian/dezarnaud-julian.github.io
-### Vidéo de 30 secondes de Gameplay : [https://youtu.be/fGPHrEuFtO4](https://youtu.be/fGPHrEuFtO4)
-
-<br>
+### Arriverez vous à obtenir la première place ? 🥇
 
 ![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/aea728c3-f17b-40c6-a4c8-85ed0b93378c)
 
-<br>
+![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/f251e8a9-4530-4606-b7d1-38e8d04f1907)
 
-### Plongez au cœur des montagnes enneigées avec Alpine Ski: Olympic Savoyard, un jeu immersif où la vitesse et l'adresse sont vos meilleurs alliés! 
-### Développé avec passion, ce jeu vous offre une expérience de slalom réaliste et palpitante.
+![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/8be712a5-f575-42fc-96b7-a8ba44bb353a)
 
-<br>
+## Liens
 
-### Le But ? Terminer 1er au Slalom Olympique !
-### Suivez la ligne bleue pour passer les drapeaux sans pénalité. Accélérez, freinez, et virez à toute vitesse pour finir le parcours le plus rapidement possible. Chaque drapeau manqué ajoute 10 secondes à votre temps – visez la perfection pour décrocher la médaille d'or!
+### [Jouez sur **PC 💻⌨️ et mobile 📱**](https://dezarnaud-julian.github.io/)
 
-<br>
+Vous pouvez aussi lancer le jeu sur mobile en scannant ce QR Code :
 
-### Découvrez une piste de ski créée avec soin, entourée de montagnes majestueuses, d'arbres enneigés, et de rochers. Des particules de neige tombent doucement, et une skybox époustouflante complète ce tableau hivernal idyllique.
+<img src="https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/190b2b02-55d5-4659-8ca8-7dec89aa54ef" alt="qrcode" width="200"/>
 
-<br>
+### [Vidéo de 30 secondes de Gameplay](https://youtu.be/fGPHrEuFtO4)
 
-### Sentez la glisse!
-### Le son joue un rôle crucial dans votre immersion. Jouez avec un casque pour une expérience maximale. Écoutez le vent siffler, la neige crisser sous vos skis, et les cloches savoyardes résonner alors que vous dévalez la pente à toute allure!
+### [Code source](https://github.com/Dezarnaud-Julian/OlympicSavoyard)
 
-<br>
+### [Repo du site web](https://github.com/Dezarnaud-Julian/dezarnaud-julian.github.io)
 
-### Préparez-vous, chaussez vos skis, et lancez-vous dans une aventure inoubliable. À vos marques, prêts, partez! Profitez de Alpine Ski: Olympic Savoyard dès maintenant pour ressentir la véritable magie de la glisse alpine.
+## Presentation
 
-<br>
+### Le But ? Terminer 1er au Slalom Olympique ! 🥇
 
+**Suivez la ligne bleue** pour passer les drapeaux sans pénalité. Accélérez, freinez, et virez à toute vitesse pour finir le parcours le plus rapidement possible. Chaque drapeau manqué ajoute 10 secondes à votre temps – visez la perfection pour décrocher la médaille d'or!
 
-<br>
+Découvrez une piste de ski créée avec soin, entourée de montagnes majestueuses, d'arbres enneigés, et de rochers. Des particules de neige tombent doucement, et une skybox époustouflante complète ce tableau hivernal idyllique.
 
+### Sentez la glisse ! ⛷️
 
-## Relevez le défi!
-### Prenez le contrôle de votre skieur avec des commandes simples :
+**Le son joue un rôle crucial** dans votre immersion. **Jouez avec un casque** pour une expérience maximale. Écoutez le vent siffler, la neige crisser sous vos skis, et les cloches savoyardes résonner alors que vous dévalez la pente à toute allure!
 
-<br>
+### Relevez le défi ! 🏆
 
-### Mode d’emploi :
--	Flèche du haut : Duck/Démarrer la course
--	Flèche du bas :  Chasse-Neige (Freiner)
--	Flèche de gauche : Tourner à gauche
--	Flèche de droite : Tourner à droite
+Préparez-vous, chaussez vos skis, et lancez-vous dans une aventure inoubliable. À vos marques, prêts, partez!
 
-<br>
+## Contrôles ⌨️ 📱
+
+Prenez le contrôle de votre skieur avec des commandes simples.
+
+### Mode d’emploi sur ordinateur ⌨️
 
 ![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/7761d90c-74e3-4b6b-8c79-e75b236daae8)
 
-<br>
+- **Flèche du haut** : Sprinter / Démarrer la course
+- **Flèche du bas** : Chasse-Neige (Freiner)
+- **Flèche de gauche** : Tourner à gauche
+- **Flèche de droite** : Tourner à droite
 
-## IL EST AUSSI POSSIBLE DE JOUER SUR MOBILE !!!!
-
-<br>
-
-### Mode d’emploi Mobile :
--	Toucher le Haut de l’écran : Duck/Démarrer la course
--	Toucher le Bas de l’écran :  Chasse-Neige (Freiner)
--	Toucher le côté gauche : Tourner à gauche
--	Toucher le côté droite : Tourner à droite
-
-Vous pouvez jouer au jeu en plein écran en installant un raccourci du jeu sur votre mobile.
-3 petits points en haut à droite de votre navigateur > Ajouter en raccourci / Add to home screen
-
-Exemple : 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsupport.startpage.com%2Fhc%2Farticle_attachments%2F6738385280020%2FScreenshot_20220603-095113.jpeg&f=1&nofb=1&ipt=97a250a51d63ba43d3e9fe40050bb28948e4a2ff4858111eaf397eeaf473c1f2&ipo=images" alt="drawing" width="200"/>
-
-<br>
+### Mode d’emploi sur mobile 📱
 
 <p align="center">
   <img src="https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/7717dbe3-2dd6-4129-b821-6a23a4677788" alt="image">
 </p>
 
-<br>
-<br>
+- **Toucher le Haut de l’écran** : Sprinter / Démarrer la course
+- **Toucher le Bas de l’écran** : Chasse-Neige (Freiner)
+- **Toucher le côté gauche** : Tourner à gauche
+- **Toucher le côté droite** : Tourner à droite
 
-### Description :
-Le projet Olympic Savoyard ou Alpine Ski est un jeu développé en utilisant Babylon.js pour la 3D et React pour la UI (User Interface) 2D.
+Jouez en mode portrait ou paysage !
+Pour jouer en plein écran et avoir une meilleure experience, installez un raccourci du jeu sur votre mobile :
 
-<br>
+Cliquez sur les 3 petits points en haut à droite de votre navigateur > Ajouter en raccourci / Add to home screen
 
-Je suis partie d’un project React CRA (Create react App), un outil qui crée un site web vide React prêt à l’emploi en Type Script. Dedans j’ai rajouté le framework Babylon pour permettre la création du jeu en 3D.
+Exemple :
 
-<br>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsupport.startpage.com%2Fhc%2Farticle_attachments%2F6738385280020%2FScreenshot_20220603-095113.jpeg&f=1&nofb=1&ipt=97a250a51d63ba43d3e9fe40050bb28948e4a2ff4858111eaf397eeaf473c1f2&ipo=images" alt="drawing" width="200"/>
 
-Le jeu présente une piste de ski représentée par un mesh avec une texture de neige. Des particules sont utilisées pour simuler la neige qui tombe, et nous sommes au sein d’une sky-box représentant des montagnes, ajoutant à l'immersion dans l'environnement hivernal de nos belles montagnes savoyardes.
+## Equipe
 
-<br>
+Julian Dezarnaud, SI4 Polytech Nice-Sophia, Valbonne
 
-Le long de la piste, vous retrouverez des arbres, des roches et des logos des Jeux Olympiques pour toujours plus d’immersion.
+## Description du developpement
 
-<br>
+Je fais mes études dans le Sud. Mais je suis originaire de Savoie et fier de l’être ! Alors quand j’ai entendue le mot Olympic, j’ai tout de suite pensé aux jeux Olympiques d’Hiver ! Je me suis donc penché vers le slalom !
 
-Un soin particulier est appliqué au son pour retrouver une sensation de glisse et de vitesse proche de la réalité ! Je vous conseille vivement de jouer avec le son pour profiter du bruit du vent et de la neige. Quel plaisir de passer à toute vitesse près des drapeaux !
+### Problématiques & features
 
-<br>
+#### Créer la base du site
 
-Le skieur, représenté par une combinaison de meshs pour le corps, les skis, le bonnet et les bâtons, évolue sur cette piste. Le parcours de ski est généré de manière procédurale en se basant sur des courbes sinusoïdales pour représenter au mieux une descente à ski. Les boosters et les drapeaux sont placés le long de ce parcours en fonction de cette sinusoïde, permettant au joueur de les atteindre de manière réaliste et réalisable.
+- Babylon.js pour la 3D
+- React pour la UI (User Interface) 2D.
 
-<br>
+Je suis parti d’un project React CRA (Create react App), un outil qui crée un site web vide React prêt à l’emploi en Typescript. Dedans j’ai rajouté le framework Babylon pour permettre la création du jeu en 3D.
 
-![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/f251e8a9-4530-4606-b7d1-38e8d04f1907)
+#### Générer un parcours de slalom
 
-<br>
+Le parcours de ski est généré de manière procédurale en se basant sur des courbes sinusoïdales pour représenter au mieux une descente à ski. Les boosters et les drapeaux sont placés le long de ce parcours en fonction de cette sinusoïde, permettant au joueur de les atteindre de manière réaliste et réalisable. J'utilise la tangeante de la courbe pour savoir quand placer un drapeau. Le slalom de ce jeu enchaîne donc plusieurs sinusoidales différentes pour changer le parcours.
 
-Le skieur est contrôlé à l'aide des touches directionnelles du clavier. En appuyant vers la gauche ou la droite, il tourne dans la direction correspondante. En appuyant vers le haut, le skieur effectue une animation de duck (accroupissement), ce qui lui permet d'augmenter sa vitesse au détriment de sa maniabilité. En appuyant vers le bas, le skieur fait le chasse-neige, ralentissant son allure mais lui permettant d'effectuer des virages serrés.
+Exemple :
 
-<br>
+- 1ère partie du slalom : (x) => Math.sin(x \* 0.01)
+- Dernère partie : (x) => Math.sin(x \* 0.03) \* 0.2 + Math.sin(x \* 0.01)
 
-Une ligne bleue représente le parcours idéal à suivre, en passant du bon côté des drapeaux. Si le joueur suit cette ligne sans dévier, aucune pénalité n'est encourue.
+#### Avoir des physiques de jeu fun et intéressantes
 
-<br>
+Au départ je voulais me rapprocher de quelque-chose de naturel et j’ai donc réalisé une piste penchée et utilisé la gravité comme force de descente. Mais j'ai rencontré des problèmes au niveau de la caméra qui avait du mal à suivre le joueur et au niveau des forces à appliquer pour gérer le freinage et surtout pour tourner. Je suis donc revenu à un terrain plat.
 
-Le but du jeu est de terminer le parcours le plus rapidement possible tout en évitant les pénalités pour ainsi décrocher la médaille d’or et gagner les Jeux Olympiques !
+Des multiplicateurs de vitesse pour tourner / avancer sont calculés en fonction de la position du joueur : Si le joueur s'accroupie pour sprinter, le multiplcateur de vitesse augemente au dessus de 1, au contraire il descends en dessous si le joueur freine. Le multiplicateur de vitesse de direction s'adapte également et est à 1 quand le joueur ne fait rien. S'accroupir pour sprinter ou freiner pénalise le joueur dans son tournant afin de l'obliger à utiliser tous les mouvements pour réussir au mieux son parcours.
 
-<br>
+#### Chronomètre et pénalités
 
-Vous pouvez voir en temps réel votre vitesse et le temps actuel de votre parcours avec et sans les pénalités (+10 sec par drapeau raté).
+Vous pouvez voir en temps réel votre vitesse et le temps actuel de votre parcours avec et sans les pénalités (+10 sec par drapeau raté). Le chronomètre est géré par une classe typescript qui comptailise également les pénalités.
+On sait si le joueur passe correctement ou pas le drapeau en fonction de sa position en X.
 
-<br>
+#### Une camera fonctionnelle et stable d'ordinateurs en ordinateur
 
-Alors attention au top départ et aux cloches Savoyardes, que le meilleur gagne !
+La caméra de Babylon ne se comportait pas pareil suivant les ordinateurs. Elle était soit trop loin, soit trop proche. Parfois même mal cadrée. Aec l’aide de Michel Buffa j'ai compris qu'il fallait écouter l'évnènement window resize pour dir à l'engine de se retailler correctement. J'ai aussi bin fait attention à ce que le canvas change bien sa taille selon la résolution des écrans
 
-<br>
+#### Avoir une physique stable
 
-![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/8be712a5-f575-42fc-96b7-a8ba44bb353a)
+Avoir une physique constante d'ordinateur en ordinateur a été très compliqué et je ne suis pas tout à fait sûr que ce soit totalement stabilisé aujourd'hui ! J’ai remarqué que suivant les machines le skieur allait plus vite ou moins vite, cassant complètement le jeu puisque le but est de réaliser le meilleur chrono (qui lui reste stable car j'utilise des intervales en javascript) ! J'ai ajouté une boucle de rendu de la physique qui est appellée sur un onBeforeStepObservable de la scene + rajouté un time step sur le plugin de physique Havok + Ajouté des options dans l'engine {deterministicLockstep: true, lockstepMaxSteps: 1}. Malheuresement ce problème ne semble pas être totalement résolu.. Si vous avez une solution à ce problème je suis preneur !
 
-<br>
+#### Optimiser le chargement de meshs et materiels
 
-<br>
+Pour la génération de la piste de slalom j'avais fait l'erreur de charger un mesh de drapeau à chaque fois que je devait poser un drapeau. Tous mes meshs/materials sont maintenant chargés/crées une fois, enregistrés en chache dans un variable et clonés lors de l'utilisation.
 
-### Démarche : 
-Je fais mes études dans le Sud. Mais je suis originaire de Savoie et fier de l’être ! Alors quand j’ai entendue le mot Olympic, j’ai tout de suite pensé aux jeux Olympiques d’Hiver ! Donc je me suis penché vers le slalom !
+#### Optimiser le chargement du décor
 
-<br>
+Générer tout une forêt en utilisant des meshs classiques dépense vite des resources. Vu que ces décors sont non interactifs et ne bougent pas j'ai voulu améliorer les perfs en utilisant le système d'instances. Elles me permettes de déplacer la charge de travail sur la carte graphique plutôt que sur le CPU. Je n'ai pas pris le temps de créer des ThinInstances, qui semblent encore plus optimisés et adaptés à mon cas.
 
-Le plus dur à été de gérer la physique. Au départ je voulais me rapprocher de quelquechose de naturel et j’ai donc réalisé une piste penché et utilisé la gravité comme force de descente. Mais cela posait des problèmes au niveau de la caméra qui avait du mal à suivre le joueur et au niveau des forces à appliquer pour gérer le freinage et surtout pour tourner. Alors je suis revenu à quelque-chose de plat.
+#### Doser la difficultée du jeu
 
-<br>
+Trouver un niveau de difficultée qui aille à tout le monde est compliqué, surtout que je voulais que ce jeu soit accessible à tous mais dans lequel il y aie un grand niveau de progression pour devenir un pro de la glisse ! Je pense qu'aujourd'hui le jeu est relativement accessible, un joueur arrivera à s'approcher du podium sans trop de problème, il faudra plus d'efforts pour obtenir la première place en revanche !
 
-De plus la caméra de Babylon me jouait des tours et n’étais pas la même suivant les ordinateurs. Mais avec l’aide de Michel Buffa tout à été réglé !
-
-<br>
-
-Avoir une physique constantes de PCs en PCs à été très compliqué et je ne suis pas tout à fait sûr que ce sois totalement stabilisé. J’ai remarqué que suivant les machines beaucoup de choses changeait sans raisons apparente (changements de vitesses). 
-
-<br>
-
-Les physiques vont plus ou moins vites suivant les machines. C’est un gros problème vu que c’est un jeu chonométré ! On veut quelque-chose d’uniforme. Donc en recherchant un peu sur les forums j’ai vue une fonction onBeforePhysicRenderLoop() qui permet d’avoir quelquchose de stable mais cela reste assez flou et je ne sais pas si cela règle totalement le problème.
-
-<br>
-
-Aussi j’ai fais l’erreur classique de charger à chaque fois le mesh pour chaque copie de drapeau alors qu’il suffisait juste de le mettre en cache pour charger le modèle une seule fois et ensuite le cloner.
-
-<br>
-
-Pour les décors (arbres, rochers), ils sont non interactifs, donc pour améliorer les perfs j’ai fais des instances. Elles me permettes de déplacer la charge de travail sur la carte graphique plutôt que sur le CPU.
-
-<br>
-
-Il est assez difficile je trouve de doser la difficulté du jeu pour qu’il soit sympathique pour tous !
-
-<br>
+#### Gestion du travail
 
 Je ne peux pas parler de gestion de la charge de travail et de l’équipe, car je suis seul à réaliser ce projet. Néanmoins je remercie mes amis d’avoir testé mon jeu à maintes reprises pour me donner des conseils d’équilibrage !
 
-<br>
+#### Gestion des sons
 
-Je voulais représenter au mieux cette sensation de glisse qui m’est cher ! Alors je suis très fier des sons de glisse qui pour moi rajoute énormément au jeu !
+Je voulais représenter au mieux cette sensation de glisse qui m’est chère ! Pour ce faire j'ai vraiment travaillé tous les sons qui composent le jeu. Le bruit de vent en fond deviens plus ou moins fort selon la vitesse du joueur, de même pour le bruit de neige qui crépite. De manière générale j'utilise le changement de vitesse du joueur pour augmenter ou diminuer le volume des sons. Le bruit de vent quand on passe près d'un drapeau est aussi proportionnel à la vitesse et la rpoximité avec celui-ci.
 
-<br>
+#### Animer le personnage
 
-Pour ce qui est du son et des animations, c’est géré procéduralement. Le volume du son est plus ou moins fort suivant certaines données, comme la position vis-à-vis des drapeaux et de la vitesse. Le son quand on freine ou que l’on tourne est plus ou moins fort, il boucle en loop et le volume est géré aussi en fonction de la vitesse.
+Je ne trouvais pas de modèle de skieur intéressant et je ne me sentais pas de le faire sur blender. J'ai donc réalisé le personnage à base de primitifs (cube, cylindre et sphere). Cela m'a permis de créer les animations du personnage procéduralement, car j’ai pu tourner/déplacer chaque partie du corps et le skis indépendamment en fonction de la vitesse du joueur et de ses déplacements. Cela permet vraiment d'avoir des rotations fluides et qui correspondent à ce que le joueur est en train de faire sur la piste.
 
-<br>
+#### Le fun de taper les drapeaux
 
-Pour les animations du personnages, tout à été créé à partir de primitifs  ( cube, cylindre et sphere)  j’ai pu tourner chaque parties du corps indépendamment et les skis en fonction de la vitesse du joueur, ce qui permet d’avoir des rotations fluides et qui correspondent à ce que le joueur est en train de faire et sa vitesse.
+Les drapeaux se penchent plus ou moins fort quand on les touche suivant la vitesse et la distance avec eux. Donc au lieu d’une animation statique ont a quelque-chose en fonction de la vitesse encore une fois.
 
-<br>
+#### Créer la UI
 
-Les drapeaux se penchent plus ou moins fort quand on les touchent suivant la vitesse et la distance avec eux. Donc au lieu d’une animation statique ont à quelque-chose en fonction de la vitesse encore une fois.
+J’ai utilisé React car j’aime bien ce Framework et j’ai l’habitude de l’utiliser. Comme je voulais faire une UI en 2D j’ai regardé si je pouvais combiner React et Babylon. Cela n’a pas été très évident au début mais à présent je peux utiliser ce que je connais en React pour réaliser la UI. La UI s’abonne à un objet Game (une classe typeScript) et il va utiliser les objets à l’intérieur pour avoir le chrono, le temps courant du chrono, la vitesse, l’état du jeu (la course est finie ou non) pour ainsi afficher le panneau de tuto ou de fin.
 
-<br>
+#### Héberger le jeu
 
-J’ai utilisé React car j’aime bien ce FrameWork et j’ai l’habitude de l’utiliser. Et comme je voulais faire une UI en 2D j’ai regardé si je pouvais combiner React et Babylon. Cela n’as pas été évident mais j’ai réussi et je peux donc utiliser ce que je connais de React pour réaliser la UI. Les deux communique car React s’abonne à un objet Game (une classe typeScript) et il va utiliser les objets à l’intérieur pour avoir le chrono, le temps courant du chrono, la vitesse, l’état du jeu (la course est finit ou non) pour ainsi afficher le panneau de tuto ou de fin.
+Pour le hosting j’ai utilisé ce que propose Git car c’était gratuit, simple et pratique. J’ai juste eu à mettre le site web buildé directement sur un répo qui a le même nom que mon username.
 
-<br>
+#### Terrain bosselé
 
-Pour le hosting j’ai utilisé ce que propose Git car c’était gratuit, simple et pratique. J’ai juste à mettre le site web buildé directement sur le répo.
+J’ai regardé pour faire des terrains dynamique avec des bosses et autre mais c’était trop compliqué dans le temps imparti que j'allouais au projet. Son utilisation allait aussi changer grandement les physiques de mon personnages, j'ai donc vite écarté cette piste et décidé de rester simple.
 
-<br>
+#### Version mobile (optimisation et contrôles)
 
-J’ai regardé pour faire des terrains dynamique avec des bosses et autre mais c’était trop compliqué.
+Pour la version mobile, afin d’optimiser et fluidifier le jeu, j’enlève beaucoup de modèles décoratifs comme les arbres, rocher et panneaux. J'ai dû aussi adapter ma classe de Contrôles pour permettre de contrôler le personnage via des inputs retournant des valeurs continues plutôts que des valeurs discrètes comme sur clavier.
+J'ai dû aussi porter une attention particulière à la UI pour faire en sorte qu'elle s'affiche correctement sur mobile et éviter des problèmes d'overscrolling / textes selectionnés pour les copier grâce au CSS.
 
-<br>
+#### Skybox
 
-Pour la version mobile, afin d’optimiser et fluidifier le jeu, j’elève beaucoup de modèles décoratifs comme les arbres, rocher et panneaux.
+J'ai utilisé un script python trouvé sur le net pour adapter une skybox qui me plaisait bien au format accapté par babylon (une skybox découpé par faces plutôt qu'une grand image simple).
 
-<br>
+#### Particules
 
-<br>
+J'ai utilisé le playground de babylon pour créer mon système de particules en live. Une fois satisfait de mon système, je l'ai sauvegardé au format json et chargé dans mon code via le json importer pour les particule systems.
 
-## Ressources
+### Ressources
 
-<br>
+- Outils :
 
-### Les sons viennent de FreeSound !
+  - Blender (pour la 3D)
+  - Photopea (pour la réalisation de graphismes)
+  - Audacity (pour éditer des sons)
 
-<br>
+- Sons (Fressound) :
 
-### Les modèles 3D on été fait avec Blender et certains récupéré sur Sketchfab.
+  - [bruit de ski sur neige](https://freesound.org/people/Nox_Sound/sounds/612662/)
+  - [cloches](https://freesound.org/people/hoersturz/sounds/60514/)
+  - [applaudissements_1](https://freesound.org/people/mglennsound/sounds/678542/)
+  - [applaudissements_2](https://freesound.org/people/kevp888/sounds/735278/)
+  - [boost](https://freesound.org/people/JomelleJager/sounds/248210/)
+  - [erreur](https://freesound.org/people/F.M.Audio/sounds/662346/)
+  - [chrono début/fin](https://freesound.org/people/micadoe/sounds/178713/)
+  - [vent près des drapeaux](https://freesound.org/people/Josethehedgehog/sounds/390367/)
+  - [drapeau touché](https://freesound.org/people/EdgardEdition/sounds/113634/)
+
+- Modèles 3D (Sketchfab):
+
+  - [sapin sur sketchfab](https://sketchfab.com/3d-models/low-poly-pine-tree-c1d140fc15bd40928989d0ca79365e13)
+  - [rochers sur sketchfab](https://sketchfab.com/3d-models/low-poly-rocks-9823ec262054408dbe26f6ddb9c0406e)
+  - le reste est crée à la main sur blender
