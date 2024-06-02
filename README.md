@@ -1,18 +1,35 @@
-<h1 align="center">❄️ Alpine Ski ⛷️</h1>
+<h1 align="center">❄️ SKI ALPIN ⛷️</h1>
+<p align="center">
+  
+  <img src="https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/b7a4b48d-c540-494d-912b-82852d4ee94d" alt="cover" width="1000"/>
+  <img src="https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/f251e8a9-4530-4606-b7d1-38e8d04f1907" alt="ingame" width="1000"/>
+  <img src="https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/8be712a5-f575-42fc-96b7-a8ba44bb353a" alt="leaderboard" height="400"/>
+  <img src="https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/7717dbe3-2dd6-4129-b821-6a23a4677788" alt="mobile" height="400">
+</p>
 
-#### 🏔️ Plongez au cœur des montagnes enneigées dans ce jeu immersif où la vitesse et l'adresse sont vos meilleurs alliés!
+### 🏔️ Plongez au cœur des montagnes enneigées !
+Découvrez une piste de ski créée avec soin, entourée de montagnes majestueuses, d'arbres enneigés, et de rochers. 
 
-#### ⛷️ **Slalomez entre les drapeaux** sans erreur et passez sur les boosts pour obtenir le meilleur chrono ! ⏲️
+Des particules de neige tombent doucement, et une skybox époustouflante complète ce tableau hivernal idyllique.
 
-### Arriverez vous à obtenir la première place ? 🥇
+### ⛷️🚩⏲️ Slalomez entre les drapeaux sans erreur pour obtenir le meilleur chrono !
 
-![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/aea728c3-f17b-40c6-a4c8-85ed0b93378c)
+**Suivez la ligne bleue** pour passer les drapeaux sans pénalité. 
 
-![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/f251e8a9-4530-4606-b7d1-38e8d04f1907)
+**Accélérez, freinez, et virez à toute vitesse** pour finir le parcours le plus rapidement possible. 
 
-![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/8be712a5-f575-42fc-96b7-a8ba44bb353a)
+**Chaque drapeau manqué ajoute 10 secondes** à votre temps – visez la perfection pour décrocher la médaille d'or!
 
-## Liens
+### 🔊🎧 Sentez la glisse !
+
+Écoutez le vent siffler, la neige crisser sous vos skis, et les cloches savoyardes résonner alors que vous dévalez la pente à toute allure!
+
+Jouez avec un casque pour une expérience maximale. 
+
+
+### 🥇 Ariverez vous à terminer 1er au Slalom Olympique ?
+
+## À vos marques, prêts, partez! 🏁
 
 ### [Jouez sur **PC 💻⌨️ et mobile 📱**](https://dezarnaud-julian.github.io/)
 
@@ -26,29 +43,13 @@ Vous pouvez aussi lancer le jeu sur mobile en scannant ce QR Code :
 
 ### [Repo du site web](https://github.com/Dezarnaud-Julian/dezarnaud-julian.github.io)
 
-## Presentation
-
-### Le But ? Terminer 1er au Slalom Olympique ! 🥇
-
-**Suivez la ligne bleue** pour passer les drapeaux sans pénalité. Accélérez, freinez, et virez à toute vitesse pour finir le parcours le plus rapidement possible. Chaque drapeau manqué ajoute 10 secondes à votre temps – visez la perfection pour décrocher la médaille d'or!
-
-Découvrez une piste de ski créée avec soin, entourée de montagnes majestueuses, d'arbres enneigés, et de rochers. Des particules de neige tombent doucement, et une skybox époustouflante complète ce tableau hivernal idyllique.
-
-### Sentez la glisse ! ⛷️
-
-**Le son joue un rôle crucial** dans votre immersion. **Jouez avec un casque** pour une expérience maximale. Écoutez le vent siffler, la neige crisser sous vos skis, et les cloches savoyardes résonner alors que vous dévalez la pente à toute allure!
-
-### Relevez le défi ! 🏆
-
-Préparez-vous, chaussez vos skis, et lancez-vous dans une aventure inoubliable. À vos marques, prêts, partez!
-
 ## Contrôles ⌨️ 📱
-
 Prenez le contrôle de votre skieur avec des commandes simples.
 
-### Mode d’emploi sur ordinateur ⌨️
+![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/c801675b-97ea-4f2f-87cf-b27759bd05f4)
 
-![image](https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/7761d90c-74e3-4b6b-8c79-e75b236daae8)
+
+### Mode d’emploi sur ordinateur ⌨️
 
 - **Flèche du haut** : Sprinter / Démarrer la course
 - **Flèche du bas** : Chasse-Neige (Freiner)
@@ -56,10 +57,6 @@ Prenez le contrôle de votre skieur avec des commandes simples.
 - **Flèche de droite** : Tourner à droite
 
 ### Mode d’emploi sur mobile 📱
-
-<p align="center">
-  <img src="https://github.com/gamesonweb/gow-olympic-edition-olympic-savoyard/assets/115253780/7717dbe3-2dd6-4129-b821-6a23a4677788" alt="image">
-</p>
 
 - **Toucher le Haut de l’écran** : Sprinter / Démarrer la course
 - **Toucher le Bas de l’écran** : Chasse-Neige (Freiner)
