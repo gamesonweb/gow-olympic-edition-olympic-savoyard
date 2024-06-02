@@ -8,9 +8,8 @@
 </p>
 
 ### 🏔️ Plongez au cœur des montagnes enneigées !
-Découvrez une piste de ski créée avec soin, entourée de montagnes majestueuses, d'arbres enneigés, et de rochers. 
 
-Des particules de neige tombent doucement, et une skybox époustouflante complète ce tableau hivernal idyllique.
+Découvrez une piste de ski créée avec soin, entourée de montagnes majestueuses, d'arbres enneigés, et de rochers. 
 
 ### ⛷️🚩⏲️ Slalomez entre les drapeaux sans erreur pour obtenir le meilleur chrono !
 
@@ -24,10 +23,11 @@ Des particules de neige tombent doucement, et une skybox époustouflante complè
 
 Écoutez le vent siffler, la neige crisser sous vos skis, et les cloches savoyardes résonner alors que vous dévalez la pente à toute allure!
 
-Jouez avec un casque pour une expérience maximale. 
+**Jouez avec un casque pour une expérience maximale.**
 
+### 🥇 Arriverez vous à terminer 1er au Slalom Olympique ?
 
-### 🥇 Ariverez vous à terminer 1er au Slalom Olympique ?
+<br/>
 
 ## À vos marques, prêts, partez! 🏁
 
@@ -58,14 +58,14 @@ Prenez le contrôle de votre skieur avec des commandes simples.
 
 ### Mode d’emploi sur mobile 📱
 
-- **Toucher le Haut de l’écran** : Sprinter / Démarrer la course
-- **Toucher le Bas de l’écran** : Chasse-Neige (Freiner)
-- **Toucher le côté gauche** : Tourner à gauche
-- **Toucher le côté droite** : Tourner à droite
+- **Glisser le doight vers le haut** : Sprinter / Démarrer la course
+- **Glisser le doight vers le bas** : Chasse-Neige (Freiner)
+- **Glisser le doigt vers la gauche** : Tourner à gauche
+- **Glisser le doigt vers la droite** : Tourner à droite
 
 Jouez en mode portrait ou paysage !
 
-Pour jouer en plein écran et avoir une meilleure experience, installez un raccourci du jeu sur votre mobile :
+Pour jouer en plein écran et avoir une meilleure experience, **installez un raccourci du jeu sur votre mobile** :
 
 Cliquez sur les 3 petits points en haut à droite de votre navigateur > Ajouter en raccourci / Add to home screen
 
@@ -94,8 +94,8 @@ Le parcours de ski est généré de manière procédurale en se basant sur des c
 
 Exemple :
 
-- 1ère partie du slalom : (x) => Math.sin(x \* 0.01)
-- Dernère partie : (x) => Math.sin(x \* 0.03) \* 0.2 + Math.sin(x \* 0.01)
+- 1ère partie du slalom : `(x) => Math.sin(x \* 0.01)`
+- Dernère partie : `(x) => Math.sin(x \* 0.03) \* 0.2 + Math.sin(x \* 0.01)`
 
 #### Avoir des physiques de jeu fun et intéressantes
 
@@ -114,7 +114,7 @@ La caméra de Babylon ne se comportait pas pareil suivant les ordinateurs. Elle 
 
 #### Avoir une physique stable
 
-Avoir une physique constante d'ordinateur en ordinateur a été très compliqué et je ne suis pas tout à fait sûr que ce soit totalement stabilisé aujourd'hui ! J’ai remarqué que suivant les machines le skieur allait plus vite ou moins vite, cassant complètement le jeu puisque le but est de réaliser le meilleur chrono (qui lui reste stable car j'utilise des intervales en javascript) ! J'ai ajouté une boucle de rendu de la physique qui est appellée sur un onBeforeStepObservable de la scene + rajouté un time step sur le plugin de physique Havok + Ajouté des options dans l'engine {deterministicLockstep: true, lockstepMaxSteps: 1}. Malheuresement ce problème ne semble pas être totalement résolu.. Si vous avez une solution à ce problème je suis preneur !
+Avoir une physique constante d'ordinateur en ordinateur a été très compliqué et je ne suis pas tout à fait sûr que ce soit totalement stabilisé aujourd'hui ! J’ai remarqué que suivant les machines le skieur allait plus vite ou moins vite, cassant complètement le jeu puisque le but est de réaliser le meilleur chrono (qui lui reste stable car j'utilise des intervales en javascript) ! J'ai ajouté une boucle de rendu de la physique qui est appellée sur un `onBeforeStepObservable` de la scene + rajouté un time step sur le plugin de physique Havok + Ajouté des options dans l'engine `{deterministicLockstep: true, lockstepMaxSteps: 1}`. Malheuresement ce problème ne semble pas être totalement résolu.. Si vous avez une solution à ce problème je suis preneur !
 
 #### Optimiser le chargement de meshs et materiels
 
