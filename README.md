@@ -64,11 +64,10 @@ Prenez le contrôle de votre skieur avec des commandes simples.
 - **Toucher le côté droite** : Tourner à droite
 
 Jouez en mode portrait ou paysage !
+
 Pour jouer en plein écran et avoir une meilleure experience, installez un raccourci du jeu sur votre mobile :
 
 Cliquez sur les 3 petits points en haut à droite de votre navigateur > Ajouter en raccourci / Add to home screen
-
-Exemple :
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsupport.startpage.com%2Fhc%2Farticle_attachments%2F6738385280020%2FScreenshot_20220603-095113.jpeg&f=1&nofb=1&ipt=97a250a51d63ba43d3e9fe40050bb28948e4a2ff4858111eaf397eeaf473c1f2&ipo=images" alt="drawing" width="200"/>
 
